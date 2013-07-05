@@ -7,7 +7,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="http://gerrit.androidninjas.com:8181/"
+           review="https://gerrit.androidninjas.com:8181"
            revision="jellybean" />
 
   <remote  name="private"
@@ -17,6 +17,9 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
 
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod/" />
+           
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
@@ -25,7 +28,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jellybean" >
+  <project path="build" name="ParanoidKang/android_build" remote="github" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -258,7 +261,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="ParanoidAndroid/android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
@@ -285,7 +287,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="cm-10.1" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -340,4 +342,15 @@
 
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
+
+
+  <!-- Paranoid Kang -->
+  <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="master" />
+  
+  <project path="packages/apps/Mms" name="ParanoidKang/android_packages_apps_Mms" remote="github" revision="jellybean" />
+  
+  
 </manifest>
