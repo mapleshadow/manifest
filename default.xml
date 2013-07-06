@@ -262,7 +262,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
-  <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -350,6 +349,7 @@
   
   <project path="packages/apps/Contacts" name="ParanoidKang/android_packages_apps_Contacts" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="ParanoidKang/android_packages_apps_Mms" remote="github" revision="jellybean" />
+  <project path="packages/apps/Phone" name="ParanoidKang/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="ParanoidKang/android_packages_apps_Settings" remote="github" revision="jellybean"  />
   
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
