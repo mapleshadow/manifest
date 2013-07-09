@@ -334,7 +334,12 @@
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
-
+  
+  
+  <!-- start device -->
+  <project name="ParanoidAndroid/android_device_motorola_jordanplus" remote="github"  revision="jb-mr1_mkt-2.6.32" />
+  <project name="ParanoidAndroid/android_vendor_motorola_jordan-common" remote="github"  revision="jb_mkt" />
+  
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
 </manifest>
