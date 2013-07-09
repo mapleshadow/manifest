@@ -335,7 +335,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
-  <project path="manifest" name="ParanoidKang/manifest" remote="github" revision="refs/heads/jellybean-legacy" />
+  <project path="manifest" name="ParanoidKang/manifest" remote="github" revision="jellybean-legacy" />
   <!-- start device -->
   <project path="device/motorola/jordanplus" name="ParanoidKang/android_device_motorola_jordanplus" remote="github"  revision="jb-mr1_mkt-2.6.32" />
   <project path="vendor/motorola/jordan-common" name="ParanoidKang/android_vendor_motorola_jordan-common" remote="github"  revision="jb_mkt" />
