@@ -337,8 +337,8 @@
   
   
   <!-- start device -->
-  <project path="device/motorola/jordanplus" name="ParanoidAndroid/android_device_motorola_jordanplus" remote="github"  revision="jb-mr1_mkt-2.6.32" />
-  <project path="vendor/motorola/jordan-common" name="ParanoidAndroid/android_vendor_motorola_jordan-common" remote="github"  revision="jb_mkt" />
+  <project path="device/motorola/jordanplus" name="ParanoidKang/android_device_motorola_jordanplus" remote="github"  revision="jb-mr1_mkt-2.6.32" />
+  <project path="vendor/motorola/jordan-common" name="ParanoidKang/android_vendor_motorola_jordan-common" remote="github"  revision="jb_mkt" />
   
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
