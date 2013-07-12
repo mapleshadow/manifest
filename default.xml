@@ -330,10 +330,6 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
-  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
-
-
   <!-- Paranoid Kang -->
   <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
 
@@ -350,4 +346,9 @@
   <project path="packages/apps/Settings" name="ParanoidKang/android_packages_apps_Settings" remote="github" revision="jellybean"  />
   
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
+  
+  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="jb-mr1" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" revision="jb-mr1" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" revision="jb-mr1" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 </manifest>
