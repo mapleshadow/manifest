@@ -346,6 +346,7 @@
   <project path="packages/apps/Settings" name="ParanoidKang/android_packages_apps_Settings" remote="github" revision="jellybean"  />
   
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.1" />
   
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" revision="jb-mr1" />
