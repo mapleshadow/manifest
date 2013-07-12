@@ -331,23 +331,26 @@
   </project>
 
   <!-- Paranoid Kang -->
-  <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="master" />
+  
+  <project path="device/lge/e975" name="ParanoidKang/android_device_lge_e975" remote="github" revision="jellybean" />
   
   <project path="frameworks/base" name="ParanoidKang/android_frameworks_base" remote="github" revision="jellybean"  />
   
   <project path="packages/apps/Camera" name="ParanoidKang/android_packages_apps_Camera" remote="github" revision="jellybean" />
   <project path="packages/apps/Contacts" name="ParanoidKang/android_packages_apps_Contacts" remote="github" revision="jellybean" />
+  <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="ParanoidKang/android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Phone" name="ParanoidKang/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="ParanoidKang/android_packages_apps_Settings" remote="github" revision="jellybean"  />
   
-  <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="master" />
   
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.1" />
+  <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
+  
+  <!-- T-mobile Theme -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" revision="jb-mr1" />
