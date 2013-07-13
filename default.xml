@@ -20,6 +20,12 @@
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
            
+  <remote  name="uk"
+           fetch="https://github.com/UltimatumKang/" />
+           
+  <remote  name="xy"
+           fetch="https://github.com/XYAOSP/" />
+           
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
@@ -32,12 +38,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jellybean" />
+  <project path="bionic" name="bionic" remote="xy" revision="jellybean2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="ParanoidAndroid/android_dalvik" remote="github" revision="jellybean" />
+  <project path="dalvik" name="android_dalvik" remote="uk" revision="jellybean" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
@@ -66,7 +72,7 @@
   <project path="external/chromium" name="ParanoidAndroid/android_external_chromium" remote="github" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/clang" name="android_external_clang" remote="sm" revision="sm-jb-mr1" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -174,7 +180,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="ParanoidAndroid/android_external_skia" remote="github" revision="jellybean" />
+  <project path="external/skia" name="android_external_skia" remote="uk" revision="jellybean" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -192,7 +198,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" remote="aosp" revision="1724e02fae2f5a2de04e994567a8c74cd31068ef" />
+  <project path="external/v8" name="external_v8" remote="xy" revision="jellybean" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webkit" name="ParanoidAndroid/android_external_webkit" remote="github" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
