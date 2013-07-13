@@ -351,8 +351,5 @@
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
   
   <!-- T-mobile Theme -->
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb-mr1" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jb-mr1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="github" revision="jb-mr1" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
 </manifest>
