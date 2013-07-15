@@ -353,7 +353,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="master" />
   
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.1" />
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean" />
   
   <!-- T-mobile Theme -->
