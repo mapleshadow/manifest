@@ -16,6 +16,9 @@
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
+           
+  <remote  name="cr"
+           fetch="git://github.com/CarbonDev/" />
 
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
