@@ -19,6 +19,9 @@
            
   <remote  name="cr"
            fetch="git://github.com/CarbonDev/" />
+           
+  <remote  name="th"
+           fetch="https://github.com/TeamHorizon/" />
 
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
@@ -340,7 +343,7 @@
 
   <!-- Paranoid Kang -->
   
-  <project path="device/lge/e975" name="TeamHorizon/android_device_lge_e975" remote="github" revision="jellybean" />
+  <project path="device/lge/e975" name="android_device_lge_e975" remote="th" revision="jb_mr1" />
   
   <project path="frameworks/base" name="ParanoidKang/android_frameworks_base" remote="github" revision="jellybean"  />
   
