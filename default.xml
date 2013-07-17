@@ -343,7 +343,7 @@
 
   <!-- Paranoid Kang -->
   
-  <project path="device/lge/e975" name="android_device_lge_e975" remote="th" revision="jb-mr1" />
+  <project path="device/lge/e975" name="ParanoidKang/android_device_lge_e975" remote="github" revision="jellybean" />
   
   <project path="frameworks/base" name="ParanoidKang/android_frameworks_base" remote="github" revision="jellybean"  />
   
