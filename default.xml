@@ -22,9 +22,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jellybean-legacy" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -200,7 +197,6 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.1"/>
-  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -329,17 +325,22 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jellybean-legacy" />
 
-  <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
+  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
+  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
+  
+  <!-- Paranoid Kang Start -->
+  <project path="build" name="ParanoidKang/android_build" remote="github" revision="jellybean-legacy" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
+  <project path="paranoid" name="ParanoidKang/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
-  <project path="manifest" name="ParanoidKang/manifest" remote="github" revision="jellybean-legacy" />
-  <!-- start device -->
-  <project path="device/motorola/jordanplus" name="ParanoidKang/android_device_motorola_jordanplus" remote="github"  revision="jb-mr1_mkt-2.6.32" />
-  <project path="vendor/motorola/jordan-common" name="ParanoidKang/android_vendor_motorola_jordan-common" remote="github"  revision="jb_mkt" />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
-  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
+  <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean-legacy" />
+  
+  
 </manifest>
