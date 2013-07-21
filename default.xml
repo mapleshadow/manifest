@@ -338,7 +338,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
-  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
+  <project path="frameworks/base" name="ParanoidKang/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean-legacy" />
   
