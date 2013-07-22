@@ -330,20 +330,20 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
   
   <!-- Paranoid Kang Start -->
-  <project path="build" name="ParanoidKang/android_build" remote="github" revision="jellybean-legacy" >
+  <project path="build" name="RemixPA/android_build" remote="github" revision="jellybean-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="paranoid" name="ParanoidKang/paranoid" remote="github" revision="jellybean" >
+  <project path="paranoid" name="RemixPA/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
-  <project path="frameworks/base" name="ParanoidKang/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
+  <project path="frameworks/base" name="RemixPA/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
   <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="ParanoidKang/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
+  <project path="packages/apps/Settings" name="RemixPA/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
   
-  <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean-legacy" />
+  <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jellybean-legacy" />
   
   
 </manifest>
