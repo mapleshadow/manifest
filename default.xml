@@ -355,6 +355,7 @@
   
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="github" revision="cm-10.1" />
   
   <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jellybean-legacy" />
   
