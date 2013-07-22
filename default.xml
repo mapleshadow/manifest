@@ -196,16 +196,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_htop" path="external/htop" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_lsof" path="external/lsof" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_lzo" path="external/lzo" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_nano" path="external/nano" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_openvpn" path="external/openvpn" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_powertop" path="external/powertop" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_vim" path="external/vim" remote="github" revision="cm-10.1" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.1"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
