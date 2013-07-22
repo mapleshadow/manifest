@@ -340,6 +340,9 @@
   
   <project path="frameworks/base" name="ParanoidKang/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
+  <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="ParanoidKang/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
+  
   <project path="vendor/pa" name="ParanoidKang/android_vendor_pa" remote="github" revision="jellybean-legacy" />
   
   
