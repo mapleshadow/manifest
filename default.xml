@@ -241,7 +241,6 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email2" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -339,6 +338,7 @@
   
   <project path="frameworks/base" name="RemixPA/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
+  <project path="packages/apps/Contacts" name="RemixPA/android_packages_apps_Contacts" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="RemixPA/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/Settings" name="RemixPA/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
