@@ -255,7 +255,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -341,6 +340,7 @@
   <project path="frameworks/base" name="RemixPA/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
   <project path="packages/apps/Halo" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
+  <project path="packages/apps/Phone" name="RemixPA/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/Settings" name="RemixPA/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
   
   <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jellybean-legacy" />
