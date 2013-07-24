@@ -340,7 +340,7 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.1" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-10.1" />
   
-  <project path="packages/apps/PermissionManager" name="MoKee/android_packages_apps_PermissionManager" revision="jb-mr1_mkt" />
+  <project path="packages/apps/PermissionManager" name="MoKee/android_packages_apps_PermissionManager" remote="github" revision="jb-mr1_mkt" />
   
   <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jellybean-legacy" />
   
