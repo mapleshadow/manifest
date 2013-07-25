@@ -344,9 +344,7 @@
   
   <project path="frameworks/base" name="RemixPA/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
-  <!--<project path="packages/apps/Contacts" name="RemixPA/android_packages_apps_Contacts" remote="github" revision="jellybean-legacy" /> -->
   <project path="packages/apps/Mms" name="RemixPA/android_packages_apps_Mms" remote="github" revision="jellybean-legacy" />
-  <!-- <project path="packages/apps/Phone" name="RemixPA/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" /> -->
   <project path="packages/apps/PermissionManager" name="RemixPA/android_packages_apps_PermissionManager" remote="github" revision="jb-mr1_mkt" />
   <project path="packages/apps/Settings" name="RemixPA/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
   
