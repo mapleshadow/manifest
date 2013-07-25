@@ -9,22 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/initializing.html)
 
 To initialize your local repository using the RemixPA trees, use a command like this:
 
-    repo init -u git@github.com:RemixPA/manifest.git -b jellybean-legacy
-
-Then to sync up:
-
-    repo sync
-
-For information on how to build, check [Here](https://github.com/RemixPA/paranoid)
-
-
-Branch
-------
-
-For Nexus devices, use the branch 'jellybean'.
-
-For the rest of non-nexus devices, the branch to use is 'jellybean-legacy'
-
+    repo init -u git@github.com:RemixPA/manifest.git -b jb4.3
 
 Then to sync up:
 
