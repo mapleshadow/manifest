@@ -243,12 +243,13 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jb43" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jb43" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jb43" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
@@ -262,6 +263,7 @@
   <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -342,9 +344,9 @@
   
   <project path="frameworks/base" name="RemixPA/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   
-  <project path="packages/apps/Contacts" name="RemixPA/android_packages_apps_Contacts" remote="github" revision="jellybean-legacy" />
+  <!--<project path="packages/apps/Contacts" name="RemixPA/android_packages_apps_Contacts" remote="github" revision="jellybean-legacy" /> -->
   <project path="packages/apps/Mms" name="RemixPA/android_packages_apps_Mms" remote="github" revision="jellybean-legacy" />
-  <project path="packages/apps/Phone" name="RemixPA/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" />
+  <!-- <project path="packages/apps/Phone" name="RemixPA/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" /> -->
   <project path="packages/apps/PermissionManager" name="RemixPA/android_packages_apps_PermissionManager" remote="github" revision="jb-mr1_mkt" />
   <project path="packages/apps/Settings" name="RemixPA/android_packages_apps_Settings" remote="github" revision="jellybean-legacy" />
   
