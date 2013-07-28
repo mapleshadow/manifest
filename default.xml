@@ -398,6 +398,6 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
-  <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jb43" />
+  <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jb4.3" />
 
 </manifest>
