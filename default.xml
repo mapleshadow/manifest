@@ -23,9 +23,6 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43-legacy" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jb43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -381,6 +378,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <!-- Remix Start -->
+  <project path="build" name="RemixPA/android_build" remote="github" revision="jb4.3" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="paranoid" name="RemixPA/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
