@@ -381,7 +381,7 @@
   <project path="build" name="RemixPA/android_build" remote="github" revision="jb4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="paranoid" name="RemixPA/paranoid" remote="github" revision="jellybean" >
+  <project path="paranoid" name="RemixPA/paranoid" remote="github" revision="jb4.3" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
