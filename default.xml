@@ -380,7 +380,6 @@
   </project>
   
   <!-- DEVICE -->
-  <project name="BigBrother1984/PA-Tuna-franco.kernel" path="kernel/samsung/tuna" remote="github" revision="nightlies-4.3" />
   <project name="RemixPA/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jb4.3" />
   <project name="RemixPA/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="jb4.3" />
   
