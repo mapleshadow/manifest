@@ -379,6 +379,12 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
+  <!-- DEVICE -->
+  <project name="BigBrother1984/PA-Tuna-franco.kernel" path="kernel/samsung/tuna" remote="github" revision="nightlies-4.3" />
+  <project name="RemixPA/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jb4.3" />
+  <project name="RemixPA/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="jb4.3" />
+  
+  <!-- PACKAGE -->
   <project path="packages/apps/Dialer" name="RemixPA/android_packages_apps_Dialer" remote="github" revision="jb4.3" />
   <project path="packages/apps/Settings" name="RemixPA/android_packages_apps_Settings" remote="github" revision="jb4.3"  />
   
