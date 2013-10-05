@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/initializing.html)
 
 To initialize your local repository using the RemixPA trees, use a command like this:
 
-    repo init -u git@github.com:RemixPA/manifest.git -b jb4.3
+    repo init -u git@github.com:RemixPA/manifest.git -b jb4.3-sm
 
 Then to sync up:
 
