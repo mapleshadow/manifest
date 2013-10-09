@@ -58,7 +58,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="ParanoidSaberDroid/android_external_bluetooth_bluedroid" remote="github" revision="cm-10.2" />
+  <project path="external/bluetooth/bluedroid" name="ParanoidSaberDroid/cm_external_bluetooth_bluedroid" remote="github" revision="cm-10.2" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2"/>
@@ -67,12 +67,12 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="ParanoidSaberDroid/android_external_chromium" remote="github" revision="jb43" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="ParanoidSaberDroid/android_external_clang" remote="github" revision="cm-10.2" />
+  <project path="external/clang" name="ParanoidSaberDroid/cm_external_clang" remote="github" revision="cm-10.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="github" revision="cm-10.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="ParanoidSaberDroid/android_external_dnsmasq" remote="github" revision="cm-10.2" />
+  <project path="external/dnsmasq" name="ParanoidSaberDroid/cm_external_dnsmasq" remote="github" revision="cm-10.2" />
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="github" revision="jb43" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="ParanoidSaberDroid/android_external_e2fsprogs" remote="github" revision="jb43" />
@@ -146,7 +146,7 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="SaberMod/android_external_llvm" remote="github" revision="sm-jb-mr2" />
-  <project path="external/lsof" name="ParanoidSaberDroid/android_external_lsof" remote="github" revision="cm-10.2" />
+  <project path="external/lsof" name="ParanoidSaberDroid/cm_external_lsof" remote="github" revision="cm-10.2" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -168,12 +168,12 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="ParanoidSaberDroid/android_external_openssh" remote="github" revision="cm-10.2" />
-  <project path="external/openssl" name="ParanoidSaberDroid/android_external_openssl" remote="github" revision="cm-10.2" />
-  <project path="external/openvpn" name="ParanoidSaberDroid/android_external_openvpn" remote="github" revision="cm-10.2" />
-  <project path="external/oprofile" name="ParanoidSaberDroid/android_external_oprofile" remote="github" revision="cm-10.2" />
-  <project path="external/ping" name="ParanoidSaberDroid/android_external_ping" remote="github" revision="cm-10.2" />
-  <project path="external/ping6" name="ParanoidSaberDroid/android_external_ping6" remote="github" revision="cm-10.2" />
+  <project path="external/openssh" name="ParanoidSaberDroid/cm_external_openssh" remote="github" revision="cm-10.2" />
+  <project path="external/openssl" name="ParanoidSaberDroid/cm_external_openssl" remote="github" revision="cm-10.2" />
+  <project path="external/openvpn" name="ParanoidSaberDroid/cm_external_openvpn" remote="github" revision="cm-10.2" />
+  <project path="external/oprofile" name="ParanoidSaberDroid/cm_external_oprofile" remote="github" revision="cm-10.2" />
+  <project path="external/ping" name="ParanoidSaberDroid/cm_external_ping" remote="github" revision="cm-10.2" />
+  <project path="external/ping6" name="ParanoidSaberDroid/cm_external_ping6" remote="github" revision="cm-10.2" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
@@ -193,12 +193,12 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="ParanoidSaberDroid/android_external_stlport" remote="github" revision="cm-10.2" />
+  <project path="external/stlport" name="ParanoidSaberDroid/cm_external_stlport" remote="github" revision="cm-10.2" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="ParanoidSaberDroid/android_external_tcpdump" remote="github" revision="cm-10.2" />
+  <project path="external/tcpdump" name="ParanoidSaberDroid/cm_external_tcpdump" remote="github" revision="cm-10.2" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
@@ -215,14 +215,14 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="ParanoidSaberDroid/android_frameworks_av" remote="github" revision="cm-10.2" />
+  <project path="frameworks/av" name="ParanoidSaberDroid/cm_frameworks_av" remote="github" revision="cm-10.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="ParanoidSaberDroid/android_frameworks_compile_slang" remote="github" revision="cm-10.2" />
-  <project path="frameworks/ex" name="ParanoidSaberDroid/android_frameworks_ex" remote="github" revision="cm-10.2" />
+  <project path="frameworks/compile/slang" name="ParanoidSaberDroid/cm_frameworks_compile_slang" remote="github" revision="cm-10.2" />
+  <project path="frameworks/ex" name="ParanoidSaberDroid/cm_frameworks_ex" remote="github" revision="cm-10.2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="ParanoidSaberDroid/android_frameworks_native" remote="github" revision="cm-10.2"/>
+  <project path="frameworks/native" name="ParanoidSaberDroid/cm_frameworks_native" remote="github" revision="cm-10.2"/>
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -232,7 +232,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/opt/net/voip" name="ParanoidSaberDroid/android_frameworks_opt_net_voip" remote="github" revision="cm-10.2" />
+  <project path="frameworks/opt/net/voip" name="ParanoidSaberDroid/cm_frameworks_opt_net_voip" remote="github" revision="cm-10.2" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
@@ -241,7 +241,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" revision="cm-10.2" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
-  <project path="frameworks/wilhelm" name="ParanoidSaberDroid/android_frameworks_wilhelm" remote="github" revision="cm-10.2" />
+  <project path="frameworks/wilhelm" name="ParanoidSaberDroid/cm_frameworks_wilhelm" remote="github" revision="cm-10.2" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
@@ -253,11 +253,11 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/display" name="ParanoidSaberDroid/android_hardware_qcom_display" remote="github" revision="jb43" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.2" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="ParanoidSaberDroid/cm_hardware_qcom_display-caf" remote="github" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media" name="SaberMod/android_hardware_qcom_media" remote="github" revision="sm-jb-mr2" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="github" revision="cm-10.2" groups="caf" />
+  <project path="hardware/qcom/media-caf" name="ParanoidSaberDroid/cm_hardware_qcom_media-caf" remote="github" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="github" revision="cm-10.2" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-10.2" />
