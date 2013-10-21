@@ -355,7 +355,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.2" groups="pdk" />
-  <project path="system/core" name="ParanoidAndroid/android_system_core" remote="github" revision="jb43-legacy"  />
   <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.2" groups="pdk" />
@@ -400,6 +399,8 @@
   
   <project path="frameworks/base" name="RemixPA/android_frameworks_base" remote="github" revision="jb4.3"  />
   <project path="frameworks/opt/telephony" name="RemixPA/android_frameworks_opt_telephony" remote="github" revision="jb4.3" />
+  
+  <project path="system/core" name="RemixPA/android_system_core" remote="github" revision="jb4.3"  />
   
   <project path="vendor/pa" name="RemixPA/android_vendor_pa" remote="github" revision="jb4.3" />
   
