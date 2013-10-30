@@ -16,3 +16,6 @@ Then to sync up:
     repo sync
 
 For information on how to build, check [Here](https://github.com/RemixPA/paranoid)
+
+===============
+面向中国的精简源码包
