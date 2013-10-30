@@ -19,3 +19,4 @@ For information on how to build, check [Here](https://github.com/RemixPA/paranoi
 
 ===============
 面向中国的精简源码包
+官方原版来源 https://github.com/ParanoidAndroid/manifest.git -b jb43-legacy
