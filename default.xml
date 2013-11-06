@@ -17,7 +17,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <default revision="refs/tags/android-4.3.1_r1"
+  <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -163,6 +163,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
@@ -217,6 +218,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jb43-legacy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -236,6 +238,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
+  <project path="frameworks/opt/telephony" name="ParanoidAndroid/android_frameworks_opt_telephony" remote="github" revision="jb43-legacy" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jb43" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-10.2" />
@@ -248,26 +251,16 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
+  <!-- HARDWARE 暂不用CM的文件，测试看看-->
+  <project path="hardware/libhardware_legacy" name="RemixPA/android_hardware_libhardware_legacy" remote="github" revision="jb4.3" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" groups="caf" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" groups="caf" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" groups="caf" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" groups="qcom_msm8960" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <!--有区别，暂不做处理-->
   <project path="libcore" name="ParanoidAndroid/android_libcore" remote="github" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -305,6 +298,7 @@
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <!--有区别，暂不做处理-->
   <project path="packages/providers/ContactsProvider" name="ParanoidAndroid/android_packages_providers_ContactsProvider" remote="github" revision="jb43-legacy" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
@@ -381,11 +375,6 @@
   </project>
   
   <!-- DEVICE -->
-  <project name="RemixPA/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jb4.3" />
-  <project name="RemixPA/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="jb4.3" />
-  
-  <!-- HARDWARE -->
-  <project path="hardware/libhardware_legacy" name="RemixPA/android_hardware_libhardware_legacy" remote="github" revision="jb4.3" groups="pdk" />
   
   <!-- PACKAGE -->
   <project path="packages/apps/Browser" name="RemixPA/android_packages_apps_Browser" remote="github" revision="jb4.3" />
