@@ -9,15 +9,16 @@ familiar with [Git and Repo](http://source.android.com/source/initializing.html)
 
 To initialize your local repository using the RemixPA trees, use a command like this:
 
+    repo init -u git@github.com:RemixPA/manifest.git -b jb4.3
     repo init -u git@github.com:RemixPA/manifest.git -b jb4.3-legacy-china
 
 Then to sync up:
 
+    repo sync
     repo sync -j4
 
 For information on how to build, check [Here](https://github.com/RemixPA/paranoid)
 
 ===============
-官方原版来源
-https://github.com/ParanoidAndroid/manifest.git -b jb43-legacy
-
+面向中国的精简源码包
+官方原版来源 https://github.com/ParanoidAndroid/manifest.git -b jb43-legacy
